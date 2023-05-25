@@ -2,10 +2,14 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+         'home-background':"url('./assets/home-background.jpg')"
+       }  
+    },
   },
   plugins: [],
 }
